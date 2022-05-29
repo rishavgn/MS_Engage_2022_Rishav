@@ -90,6 +90,11 @@ _This Project helps to solve one of the domain in which there is huge user engag
    will also go up, whereas if the value of the correlation is negative, then if A increases, B
    decreases._
        
-   
+  # References
+    https://developers.themoviedb.org/3  For api features​
+
+    https://builtin.com/data-science/recommender-systems  For Recommendation Engine​
+
+    https://axios-http.com/docs/intro  For Api calls​
  
 
