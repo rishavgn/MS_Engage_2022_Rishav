@@ -39,7 +39,7 @@ _This Project helps to solve one of the domain in which there is huge user engag
              $ pip install requirements.txt
              
 ###     Add dataset from google drive link provided 
-          Add movies_similarity.csv file to pymodel befor running
+          Add movies_similarity.csv file to pymodel before running
           
           
 # Running the Application Locally 
@@ -56,35 +56,21 @@ _This Project helps to solve one of the domain in which there is huge user engag
 
 # Tech Stack Used
 
-   ### Programming Language used
-       Javascript
-       Python
-       
+   |Programming Language | Frameworks and Libraries                   |
+   |-------------------- |-----------------------                     |
+   | Javascript, Python  | React Js NOdeJs ExpressJs JWT Bcrypt Redux |
+         
    ### Recommendation Engine
        Jupyter Notebook
-       
-   ### Frameworks and Libraries
-       Reactjs
-       Nodejs
-       Expressjs
-       JWT
-       Bcrypt
-       Redux
        
    ### Database 
         MongoDB
         
         
         
-# Features And Working of Application
+# Website Architecture
+  
 
- | Description |    UI     |
- | ----------  | --------- |
- | User Registration page Enter the Credentials here  | --------- |
-
- | ----------- | ----------|
- | user Signin |        |
- |Enter your correct credentials or you will be notified with alert |      |
  
  # Recommendation Engine
    ### Based on collaborative Filtering (Item to Item based)
