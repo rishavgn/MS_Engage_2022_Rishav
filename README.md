@@ -4,7 +4,8 @@
 Demonstrate through your app the different kinds of algorithms that a web-streaming app (like Netflix) or an audio-streaming app (like Spotify) may use for their Recommendation Engine.
 
 ## Solution 
-## Binge Play  :white_check_mark:
+## Binge Play  :white_check_mark:  
+<img src="https://github.com/rishavgn/MS_Engage_2022_Rishav/blob/master/clients/public/logo_for.png" width"100"/> 
 **A website which Recommends movies by analysing the sentiments of user**
 
 ## Overview
