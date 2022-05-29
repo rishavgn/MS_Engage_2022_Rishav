@@ -15,17 +15,17 @@ _This Project helps to solve one of the domain in which there is huge user engag
 # Installation and Environment Setup
 
 ## 1. Clone This Repo
-  ```
+  
      $ https://github.com/rishavgn/MS_Engage_2022_Rishav/.git
-  ```
+  
   
 ## 2. Install packages
 ###     For Frontend setup
-      ```
+     
             1. open terminal and  move to the clients directory (cd clients)
             2. npm install
                
-      ```
+      
 ###     For Backend setup
             ```
              $ cd backend
@@ -52,6 +52,38 @@ _This Project helps to solve one of the domain in which there is huge user engag
    ### For python api
        $ python app.py
        make sure you activate the virtual envionment
-            
-             
-            
+                         
+
+# Tech Stack Used
+
+   ### Programming Language used
+       Javascript
+       Python
+       
+   ### Recommendation Engine
+       Jupyter Notebook
+       
+   ### Frameworks and Libraries
+       Reactjs
+       Nodejs
+       Expressjs
+       JWT
+       Bcrypt
+       Redux
+       
+   ### Database 
+        MongoDB
+        
+        
+        
+# Features And Working of Application
+
+ | Description |    UI     |
+ | ----------  | --------- |
+ | User Registration page Enter the Credentials here  | --------- |
+
+ | ----------- | ----------|
+ | user Signin |        |
+ |Enter your correct credentials or you will be notified with alert |      |
+ 
+
