@@ -6,6 +6,10 @@
         
    #### Using pearson corrleation
        The Pearson correlation method that assigns -1/0/1 values, where 0 has no correlation, 1 has total
-       positive correlation and -1 has total negative correlation.
+       positive correlation and -1 has total negative correlation.This is interpreted as follows: a correlation
+       value of 0.7 between two variables would indicate that a significant and positive relationship 
+       exists between the two. A positive correlation signifies that if variable A goes up, then B 
+       will also go up, whereas if the value of the correlation is negative, then if A increases, B
+       decreases.
        
    
