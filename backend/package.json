@@ -4,7 +4,9 @@
   "description": "backend for movie app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "pkg index.js --output dist/app"
+    
   },
   "author": "rishav gandhi",
   "license": "ISC",
