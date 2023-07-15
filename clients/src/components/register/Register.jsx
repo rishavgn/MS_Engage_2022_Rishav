@@ -43,7 +43,7 @@ export default function Register() {
     console.log(email);
     console.log(name);
     try {
-      await axios.post("/api/v1/register", { email,name, password, age });
+      await axios.post("https://movierecym.onrender.com/api/v1/register", { email,name, password, age });
   
       navigate("/login");
     } catch (err) {

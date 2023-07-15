@@ -7,9 +7,9 @@ app.use(express.json());
 app.use(cookieParser());
 
 const user = require('./Routes/UserRoute');
-const bookmark = require('./Routes/UserfavRoute');
+// const bookmark = require('./Routes/UserfavRoute');
 app.use('/api/v1/',user);
-app.use('/api/v1/bookmark',bookmark);
+// app.use('/api/v1/bookmark',bookmark);
 
 //middleware for error
 app.use(errorMiddleware);
