@@ -44,7 +44,8 @@ export default function Register() {
     console.log(name);
     try {
       await axios.post("/api/v1/register", { email,name, password, age });
-      navigate("/");
+  
+      navigate("/login");
     } catch (err) {
       console.log(err)
       alert(err.response.data.message)

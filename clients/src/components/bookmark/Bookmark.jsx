@@ -7,21 +7,52 @@ import BookmarkCard from './BookmarkCard';
 export default function Bookmark() {
 
   const [user, setUser] = useState();
+  const [bookmark_data, setBookmark_data]=useState();
+  const[cole, setCole]=useState();
+
   const localdata = localStorage.getItem("user");
    const id = localdata.slice(31,55)
-  console.log(id)
+ 
   const sendRequest = async () => {
     const res = await axios
-      .get(`/api/v1/getfavlist/${id}`)
+      .get(`/api/v1/bookmark/getfavlist/`)
       .catch((err) => console.log(err));
-    const data = await res.data;
+      alert("Fetched");
+    const data = await res.data.bookmarked;
+    console.log(data)
+    
+    setBookmark_data(data);
     return data;
   };
+  console.log(bookmark_data[0].movie_id[0])
+  var movie_ids =[];
+  for (let j = 0; j < bookmark_data.length; j++) {
+       
+    movie_ids.push('https://api.themoviedb.org/3/movie/'+bookmark_data[j].movie_id[0]+'?api_key=35d8aac3bae49504fe7837fd16f79d2d&language=en-US');
+  }
+console.log(movie_ids)
+
+axios.all(movie_ids.map((endpoint)=> axios.get(endpoint)))
+.then(async function(datae)
+{
+  var fetch_data = await datae
+  console.log(fetch_data)
+  setCole(fetch_data)
+}
+
+)
+.catch(function (error) {
+        console.log(error);
+      });
+
+
+
   useEffect(() => {
     sendRequest().then((data) => setUser(data.user));
   }, []);
-  console.log(user);
+  // console.log(user);
 
+  
 
 //   const cards = cole.map(item => {
 //     return (
