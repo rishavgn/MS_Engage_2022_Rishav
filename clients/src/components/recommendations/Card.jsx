@@ -52,9 +52,7 @@ export default function Card(props) {
       </div>
   </div>
 </div>
-<a href="https://dribbble.com/geehm" target="_blank">
-  <img class="dribbble-link" src={`https://image.tmdb.org/t/p/original/${props.img}`}/>
-</a>
+
 
 
 
