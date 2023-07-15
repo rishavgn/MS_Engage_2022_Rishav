@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js",
     "build": "pkg index.js --output dist/app"
-    
   },
   "author": "rishav gandhi",
   "license": "ISC",
@@ -21,6 +20,7 @@
     "jwtr": "^0.5.0",
     "mongoose": "^6.3.4",
     "nodemon": "^2.0.16",
+    "pkg": "^5.8.1",
     "validator": "^13.7.0"
   },
   "vercel": {
