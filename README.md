@@ -22,7 +22,7 @@ _This Project helps to solve one of the domain in which there is huge user engag
 
 ## 1. Clone This Repo
   
-     $ https://github.com/rishavgn/MS_Engage_2022_Rishav.git
+     $ https://github.com/rishavgn/tensorassg
   
   
 ## 2. Install packages
